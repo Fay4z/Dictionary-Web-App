@@ -40,11 +40,10 @@ function App() {
     }
 
   return (
-    <div className="max-w-7xl m-auto">
-      <h1>WELCOME TO SIMPLE DICTIONARY</h1>
-      <p>Search a word to get its antonyms and synonyms</p>
+    <div className="max-w-7xl m-auto py-10">
 
       <FormComponent onFormSubmit={handleFormSubmit}/>
+      <p className="text-gray-600 text-xl py-4 text-center">**Search a word to get its antonyms and synonyms</p>
       {error && <p>Error {error}</p>}
       {isLoading ? 
         <p>Loading...</p>

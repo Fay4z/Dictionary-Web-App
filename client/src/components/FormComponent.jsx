@@ -10,8 +10,7 @@ function FormComponent({onFormSubmit}) {
     }
 
     return ( 
-        <div>
-            <h1>This is Form Component</h1>
+        <div className="text-center">
             <form onSubmit={handleSubmit}>
                 <input 
                     type="text" 

@@ -3,7 +3,7 @@ function DisplayData({inputWord, antonyms, synonyms}) {
     console.log(inputWord, synonyms, antonyms);
     return ( 
         <div>
-            <div className="">
+            <div className="pb-6">
                 <div>
                     {synonyms && 
                         <p className="text-4xl text-center my-9">List of Synonyms ({synonyms.length})</p>}
